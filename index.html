@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="stildeneme.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+        <div class="headerV3-wrapper">
+            <div class="headerV3-logo">
+                <a class="header-logo" href="https://jobs.coinmarketcap.com"><img border="0" alt="CoinMarketCap"
+                        src="https://jobs.coinmarketcap.com/uploads/tenant/logo/10955/black.png"></a>
+            </div>
+            <div class="headerV3-nav">
+                <ul>
+                    <li class="nav-item">
+                        <a href="https://jobs.coinmarketcap.com">All Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://jobs.coinmarketcap.com/products">Post a Job</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://jobs.coinmarketcap.com/employers">Employers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://jobs.coinmarketcap.com/pages/22065-about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://jobs.coinmarketcap.com/pages/22066-contact">Contact</a>
+                    </li>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+                </ul>
+            </div>
+            <div class="headerV3-userNav">
+                <ul id="account_navbar" data-js="navLinks">
+                    <li class="dropdown" id="profile-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <svg class="u-mr--small icon icon--align icon-job-seekers">
+                                <use xlink:href="#user"></use>
+                            </svg>
+                            <span class="hidden-xs">Job Seekers <svg class="u-ml--xsmall icon icon--small icon-flip">
+                                    <use xlink:href="#arrow-down"></use>
+                                </svg></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a role="button" href="/profiles/sign_in">Log In</a></li>
+                            <li><a role="button" href="/profiles/sign_up">Create your Profile</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" id="employer-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <svg class="u-mr--small icon icon--align icon-employers">
+                                <use xlink:href="#employers"></use>
+                            </svg>
+                            <span class="hidden-xs">Employers <svg class="u-ml--xsmall icon icon--small icon-flip">
+                                    <use xlink:href="#arrow-down"></use>
+                                </svg></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a role="button" href="/employers/sign_in">Log In</a></li>
+                            <li><a role="button" href="/employers/sign_up">Create Employer Account</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="page-container">
+        <div class="text-center u-contrast">
+            <div class="">
+            </div>
+            <div>
+                <form role="form" class="siteSearch" action="/jobs/search" accept-charset="UTF-8" method="get">
+                    <div class="siteSearch-keyword">
+                        <input type="text" name="q" id="q" class="form-control input-lg input-preserve clearInput-input"
+                            placeholder="Keywords" autocomplete="off" aria-autocomplete="list" aria-haspopup="true"
+                            aria-label="Keywords" data-clear-label="Clear Keywords"><button class="clearInput-clear"
+                            aria-label="Clear Keywords" type="button" tabindex="-1"><svg class="icon">
+                                <use xlink:href="#close"></use>
+                            </svg></button>
+                        <svg class="icon siteSearch-labelIcon">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </div>
+                    <div class="siteSearch-location dropdown">
+                        <a href="#" class="hidden" data-toggle="dropdown"></a>
+                        <input type="text" name="l" id="l"
+                            class="form-control input-lg input-preserve location-input ui-autocomplete-input clearInput-input"
+                            placeholder="Location" autocomplete="off" aria-autocomplete="list" aria-haspopup="true"
+                            aria-label="Location" data-location-autocomplete="true" data-location-geolocate="true"
+                            data-clear-label="Clear Location"><button class="clearInput-clear"
+                            aria-label="Clear Location" type="button" tabindex="-1"><svg class="icon">
+                                <use xlink:href="#close"></use>
+                            </svg></button>
+                        <svg class="icon siteSearch-labelIcon">
+                            <use xlink:href="#pin"></use>
+                        </svg>
+                        <input type="hidden" name="lat" id="job_alert_lat_siteSearch-location" data-location-lat="true"
+                            autocomplete="off">
+                        <input type="hidden" name="long" id="job_alert_long_siteSearch-location"
+                            data-location-long="true" autocomplete="off">
+                    </div>
+                    <script
+                        src="/assets/location_autocomplete-e8afcad30f5badde951c62800ca7100155c29be1ebe2ae5968c83222bfd81fc3.js"></script>
+                    <div class="siteSearch-distance">
+                        <div class="dropdown">
+                            <a href="#" class="btn btn-lg distance-btn dropdown-toggle" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">
+                                <svg class="icon icon--align">
+                                    <use xlink:href="#location"></use>
+                                </svg>
+                                <span data-js="distanceLabel" style="text-transform: none;">Distance</span>
+                                <svg class="icon icon--small icon-flip">
+                                    <use xlink:href="#arrow-down"></use>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu siteSearch-dropdown">
+                                <li><a href="#" data-distance="5">5 Miles</a></li>
+                                <li><a href="#" data-distance="10">10 Miles</a></li>
+                                <li><a href="#" data-distance="20">20 Miles</a></li>
+                                <li><a href="#" data-distance="50">50 Miles</a></li>
+                                <li><a href="#" data-distance="100">100 Miles</a></li>
+                                <li><a href="#" data-distance="9999">Any</a></li>
+                            </ul>
+                        </div>
+                        <input type="hidden" name="d" id="d" autocomplete="off">
+                    </div>
+                    <div class="siteSearch-submit">
+                        <button class="btn btn-lg btn-success">Search</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <a class="postCta-button btn btn-lg btn-block btn-primary u-mb--large" href="/products">Post a Job<br><span
+            class="postCta-sub">5 job posts, only $699</span></a>
+</body><a class="postCta-button btn btn-lg btn-block btn-primary u-mb--large" href="/products">Post a Job<br><span
+        class="postCta-sub">5 job posts, only $699</span></a>
+
+</html>
